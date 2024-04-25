@@ -11,12 +11,12 @@ Este proyecto consiste en desarrollar una landing page para la plataforma SoundW
 
 # Metodology
 
-[Trello Demo Link](https://trello.com/b/xgjt8v1A/proyecto-ecommerce)
+[Trello Demo Link](https://trello.com/b/y7dYzi4A/soundwave)
 
 # Deployment
 
-[Netlify Deployment Link](https://kaleidoscopic-truffle-3d77ba.netlify.app/)
+[Netlify Deployment Link]()
 
 # GitHub
 
-[GitHub Repository Link](https://github.com/project-assigments-p2-singulaars/ecommerce-herum.git)
+[GitHub Repository Link](https://github.com/project-assigments-p2-singulaars/soundwave-roouugeer.git)
