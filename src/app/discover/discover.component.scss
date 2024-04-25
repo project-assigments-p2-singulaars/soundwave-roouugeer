@@ -1,0 +1,69 @@
+h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 3rem;
+    line-height: 1.5;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+    margin-top: 1%;
+    font-weight: 200;
+}
+
+.iconImg {
+    width: 70%;
+    height: auto;
+}
+
+.coverImg {
+    width: 17rem;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .mainSection {
+        margin-top: 8rem;
+        gap: 2rem;              
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    
+    .coverImg {
+        display: flex;
+    width: 15rem;
+    height: 15rem;
+    }
+
+}
+
+.iconsContainer {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.8rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    
+}
+
+.icon {
+    background-color: #202027;  
+    padding: 0.7rem;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.textDiscover {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+    margin-right: 2rem;
+}

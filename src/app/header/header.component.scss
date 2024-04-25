@@ -1,14 +1,14 @@
-body {
-    background-color: #2F303A; 
+body { 
     font-family: "Poppins";
 }
 
 header{    
     display: flex;
     justify-content: center;
-    background-color: #2F303A;
     padding-top: 1rem;
     font-family: "Poppins";
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .iconAndTitle {
@@ -24,7 +24,7 @@ header a{
     color: white;    
 }
 
-nav a:hover{
+header a:hover {
     color: #202027;
 }
 
@@ -37,14 +37,12 @@ nav{
     width: 90%;
 }
 
-.discover {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-}
 
-.join {
+
+div {
     text-decoration: none;
     display: flex;
     justify-content: center;
+    gap: 2rem;
+        
 }
