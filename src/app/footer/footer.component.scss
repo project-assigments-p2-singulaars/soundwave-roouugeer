@@ -1,0 +1,84 @@
+footer {
+    display: flex;
+    background-color: #202027;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+div a{
+    color: white;
+    gap: 2px;
+}
+
+
+.aboutUsAndContact {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.twitterAndFb {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1.5rem;
+    height: auto;
+}
+
+p {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .twitterText,
+    .fbText {
+        display: block;
+        
+    }
+
+    .twitterFbMix {
+        display: flex;
+        
+    }
+
+    .twitterAndFb, .aboutUsAndContact{
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    }
+
+    .twitterAndFb {
+        margin-right: 7rem;
+    }
+
+    .aboutUsAndContact {
+        margin-left: 7rem;
+    }
+
+    .aboutUsAndContact {
+        width: 50%;
+    }
+
+    .twitterAndFb img,
+    .twitterAndFb img {
+        max-width: 1rem;
+        height: auto;
+    }
+}

@@ -1,0 +1,48 @@
+body { 
+    font-family: "Poppins";
+}
+
+header{    
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-family: "Poppins";
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.iconAndTitle {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 1rem;
+    font-size: 1.2rem;
+   }
+
+header a{
+    text-decoration: none;
+    color: white;    
+}
+
+header a:hover {
+    color: #202027;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    width: 90%;
+}
+
+
+
+div {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+        
+}

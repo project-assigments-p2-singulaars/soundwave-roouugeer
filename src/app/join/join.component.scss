@@ -1,0 +1,121 @@
+h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 3.4rem;
+    margin-right: 2rem;
+    margin-left: 1.5rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+}
+
+h2 .funPink {
+    color: #ee106d;
+}
+
+label {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+
+form {
+    background-color: #202027;
+    border-radius: 15px;
+    padding: 1.5rem 2.5rem;
+    margin: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #202027;
+    border: 1px solid #2E3852;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 1.3rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    width: 85%;
+}
+.joinButton {
+    background-color: #1762A7;
+    color: white;
+    padding: 0.5rem 5rem;
+    border: none;
+    border-radius: 0.5rem;
+    width: 90%;
+}
+button:hover {
+    background-color: #2180D8;
+}
+
+
+
+.circleTwo {
+    
+        background-color:#3457b21a;
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+        z-index: -1;
+        display: flex;
+        position: fixed;
+        bottom:90%;
+        left:22%; 
+}
+
+.circleOne {
+        background-color: #bc3a801a;
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+        z-index: -1;
+        display: flex;
+        position: fixed;
+        bottom:-2%;
+        left:-7%; 
+}
+
+@media screen and (min-width: 768px) {
+    .joinContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .circleOne {
+        background-color: #3457b21a;
+        border-radius: 50%;
+        width:27rem;
+        height: 27rem;
+        z-index: -1;
+        display: flex;
+        position: fixed;
+        bottom:65%;
+        left:20%; 
+    }
+
+    .circleTwo {
+        background-color: #bc3a801a;
+        border-radius: 50%;
+        width:37rem;
+        height: 37rem;
+        z-index: -1;
+        display: flex;
+        position: fixed;
+        bottom:-2%;
+        left:-10%; 
+    }
+
+    form {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .joinButton {
+        width: 90%;
+    }
+}
